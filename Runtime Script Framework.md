@@ -23,18 +23,18 @@ emulator hacks:
 2. Copy the `_gt4286util` from [here](./sdcard_tweaks/) to the root of your SD Card.
     - It contains an improved busybox in `_gt4286util/bin`
 
-3. Copy and rename `/_gt4286util/_template_gmenu2x.sh` to `/bin/gmenu2x`
-4. Copy and rename `/_gt4286util/_template_emu.sh` to `/emus/{emudir}/{emuname}` eg:
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/fbneo/fbneo`
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/fceux/fceux`
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/gamebatte/gambatte_sdl`
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/gpsp/gpsp`
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/gbc/gambatte_sdl`
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/picodrive/PicoDrive`
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/snes9x4d/snes9x4d.dge`
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/pcsx4all/pcsx`
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/mame/fbneo`
-    -  `/_gt4286util/_template_emu.sh` -> `/emus/temper/temper`
+3. Copy and rename `/_gt4286util/scripts/_template_gmenu2x.sh` to `/bin/gmenu2x`
+4. Copy and rename `/_gt4286util/scripts/_template_emu.sh` to `/emus/{emudir}/{emuname}` eg:
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/fbneo/fbneo`
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/fceux/fceux`
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/gamebatte/gambatte_sdl`
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/gpsp/gpsp`
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/gbc/gambatte_sdl`
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/picodrive/PicoDrive`
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/snes9x4d/snes9x4d.dge`
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/pcsx4all/pcsx`
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/mame/fbneo`
+    -  `/_gt4286util/scripts/_template_emu.sh` -> `/emus/temper/temper`
 
 5. Copy the scripts from [here](./sdcard_tweaks/roms/MAME/) to `/roms/MAME`
     - most of these scripts are for use by those interested in exploring the internals but the following might be useful to the casual user:
